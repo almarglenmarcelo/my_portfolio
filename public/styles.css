@@ -371,7 +371,8 @@ body {
     background-color: #eff1f3;
     height: 1100px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .aboutheader {
@@ -389,7 +390,8 @@ body {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutheader #hr {
@@ -809,7 +811,7 @@ footer hr {
 
 
 
-
+/* MEDIA QUERIES  */
 
 
 
@@ -860,11 +862,15 @@ footer hr {
     }
 
     .home {
-        height: 100vh;
+        height: 820px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .profile img {
-        margin-top: 100px;
+        margin-top: 50px;
         width: 250px;
         height: 235px;
         border-radius: 50%;
@@ -872,8 +878,8 @@ footer hr {
     }
 
     #greetings {
-        font-size: 1.75rem;
-        padding: 5em 2em 0 2em;
+        font-size: 1.25rem;
+        padding: 3em 2em 0 2em;
         color: #d3d3d3;
         transition: all .5s
     }
@@ -899,7 +905,7 @@ footer hr {
     }
 
     .about {
-        height: 180vh;
+        height: 1500px;
     }
 
     .content-right {
@@ -979,7 +985,7 @@ footer hr {
     }
 
     .home {
-        height: 100vh;
+        height: 900px;
     }
 
     .profile img {
@@ -998,7 +1004,7 @@ footer hr {
     }
 
     #name {
-        font-size: 2.75rem;
+        font-size: 2.5rem;
         display: flex;
         justify-content: center;
         animation: shine 1s
@@ -1009,12 +1015,16 @@ footer hr {
         font-size: 1rem;
     }
 
+
+    #icon-content {
+        margin-top: 50px;
+    }
     #icon-content i {
         font-size: 55px;
     }
 
     .about {
-        height: 150vh;
+        height: 1300px;
     }
 
     .content-right {
@@ -1105,6 +1115,9 @@ footer hr {
         color: #111
     }
 
+    .home {
+        height: 925px;
+    }
     .profile img {
         margin-top: 100px;
         width: 300px;
@@ -1127,12 +1140,17 @@ footer hr {
         font-size: 1.25rem;
     }
 
+    
+    #icon-content {
+        margin-top: 50px;
+    }
+
     #icon-content i {
         font-size: 60px;
     }
 
     .about {
-        height: 130vh;
+        height: 1100px;
     }
 
     #comment {
@@ -1233,6 +1251,10 @@ footer hr {
         height: 320px;
     }
 
+    .home {
+        height: 900px;
+    }
+
     #greetings {
         font-size: 2.5rem;
         padding: 4em 2em 0 2em;
@@ -1249,12 +1271,17 @@ footer hr {
         font-size: 1.75rem;
     }
 
+    
+    #icon-content {
+        margin-top: 50px;
+    }
+
     #icon-content i {
         font-size: 70px;
     }
 
     .about {
-        height: 135vh;
+        height: 1000px;
     }
 
     .aboutheader {
@@ -1306,7 +1333,7 @@ footer hr {
 
 
 
-@media (min-width:1044px) {
+@media (min-width:1044px){
     .nav {
         position: fixed;
         width: 100%;
@@ -1394,18 +1421,18 @@ footer hr {
 
 
     .home {
-        height: 110vh;
+        height: 850px;
     }
 
     .profile img {
-        margin-top: 60px;
+        margin-top: 100px;
         width: 325px;
         height: 325px;
     }
 
     #greetings {
         font-size: 2.5rem;
-        padding-top: 3em;
+        padding-top: 3.5em;
     }
 
     #name {
@@ -1425,6 +1452,11 @@ footer hr {
         margin-left: -20px
     }
 
+    
+    #icon-content {
+        margin-top: 50px;
+    }
+
     #icon-content i {
         font-size: 55px
     }
@@ -1434,7 +1466,7 @@ footer hr {
     }
 
     .about {
-        height: 105vh;
+        height: 900px;
         padding: 15px 0
     }
 
@@ -1450,7 +1482,7 @@ footer hr {
 
     .aboutcontent {
         margin-top: 5px;
-        flex-direction: row
+        flex-direction: row;
     }
 
     .aboutheader #hr {
@@ -1477,7 +1509,7 @@ footer hr {
     }
 
     .skills {
-        height: 120vh
+        height: 1000px;
     }
 
     #skills {
@@ -1531,3 +1563,40 @@ footer hr {
         margin-top: -20px
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1010px) and (max-width: 1310px) and (max-height: 450px) and (min-height: 310px) {
+    .home {
+        height: 900px;
+    }
+
+    .about {
+        height: 900px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
