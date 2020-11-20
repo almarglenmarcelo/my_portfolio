@@ -19,37 +19,6 @@ $(document).ready(function () {
         });
     });
 
-    // //Change background-color animation
-    // $('.mainprofile').hover(() => {
-    //     $('.mainprofile').parent().parent().css({
-    //         "background-color": "#bdc667",
-    //         "color": "#2b2d42"
-    //     })
-    //     $('.mainprofile').parent().siblings('#greetings').css({
-    //         "color": "#2b2d42"
-    //     })
-    //     $('.mainprofile').parent().siblings('#description').children().css({
-    //         "-webkit-text-stroke": "#2b2d42 2px"
-    //     })
-    //     $('.mainprofile').parent().siblings('.icons').children().children().children().css({
-    //         "color": "#2b2d42"
-    //     })
-    // }, () => {
-    //     $('.mainprofile').parent().parent().css({
-    //         "background-color": "#2b2d42",
-    //         "color": "#fff"
-    //     })
-    //     $('.mainprofile').parent().siblings('#greetings').css({
-    //         "color": "lightgrey"
-    //     })
-    //     $('.mainprofile').parent().siblings('#description').children().css({
-    //         "-webkit-text-stroke": "#bdc667"
-    //     })
-    //     $('.mainprofile').parent().siblings('.icons').children().children().children().css({
-    //         "color": "#fff"
-    //     })
-    // })
-  
 
     //Toggle Accordion Menu
     $('.accordion i').click(() => {
