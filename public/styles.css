@@ -985,7 +985,7 @@ footer hr {
     }
 
     .home {
-        height: 900px;
+        height: 825px;
     }
 
     .profile img {
@@ -997,14 +997,14 @@ footer hr {
     }
 
     #greetings {
-        font-size: 2rem;
-        padding: 4em 2em 0 2em;
+        font-size: 1.5rem;
+        padding: 3em 2em 0 2em;
         color: #d3d3d3;
         transition: all .5s
     }
 
     #name {
-        font-size: 2.5rem;
+        font-size: 2rem;
         display: flex;
         justify-content: center;
         animation: shine 1s
@@ -1107,7 +1107,7 @@ footer hr {
     }
 
     .accordion i {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .accordion i.active:before {
@@ -1116,7 +1116,7 @@ footer hr {
     }
 
     .home {
-        height: 925px;
+        height: 850px;
     }
     .profile img {
         margin-top: 100px;
@@ -1125,14 +1125,14 @@ footer hr {
     }
 
     #greetings {
-        font-size: 2.25rem;
-        padding: 4em 2em 0 2em;
+        font-size: 1.75rem;
+        padding: 3.5em 2em 0 2em;
         color: #d3d3d3;
         transition: all .5s
     }
 
     #name {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
 
@@ -1232,7 +1232,7 @@ footer hr {
 
     .accordion i {
         z-index: 999;
-        font-size: 45px;
+        font-size: 25px;
     }
 
     .navbar.active {
@@ -1256,14 +1256,14 @@ footer hr {
     }
 
     #greetings {
-        font-size: 2.5rem;
-        padding: 4em 2em 0 2em;
+        font-size: 2rem;
+        padding: 4.5em 2em 0 2em;
         color: #d3d3d3;
         transition: all .5s
     }
 
     #name {
-        font-size: 4rem;
+        font-size: 2.75rem;
     }
 
 
