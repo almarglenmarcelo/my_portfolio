@@ -849,7 +849,7 @@ footer hr {
 
     .navbar.active {
         right: 0;
-        background-color: #bdc667;
+        background-color: crimson;
     }
 
     .accordion i.active:before {
