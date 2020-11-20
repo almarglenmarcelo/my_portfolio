@@ -546,6 +546,12 @@ body {
     height: 5px
 }
 
+.bar .nodejs-progress {
+    width: 30%;
+    background-color: #f6aa1c;
+    height: 5px;
+}
+
 .bar .csharp-progress {
     width: 20%;
     background-color: #f6aa1c;

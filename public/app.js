@@ -19,7 +19,7 @@ $(document).ready(function () {
         });
     });
 
-
+    
     //Toggle Accordion Menu
     $('.accordion i').click(() => {
         $('.navbar').toggleClass('active');
